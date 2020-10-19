@@ -1,0 +1,28 @@
+{
+  "name": "covid-alert-level",
+  "version": "0.0.1",
+  "description": "A simple API to determine the alert level and rules for your area",
+  "main": "lib/index.js",
+  "repository": "https://github.com/Half-Shot/node-covid-alert-level",
+  "author": "Half-Shot <me@half-shot.uk>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/*.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/cheerio": "^0.22.22",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "node-html-parser": "^1.3.1"
+  }
+}
