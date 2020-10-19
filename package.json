@@ -1,5 +1,5 @@
 {
-  "name": "covid-alert-level",
+  "name": "@half-shot/covid-alert-level",
   "version": "0.0.1",
   "description": "A simple API to determine the alert level and rules for your area",
   "main": "lib/index.js",
